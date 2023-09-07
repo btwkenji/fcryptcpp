@@ -24,10 +24,29 @@ git clone https://github.com/kenjitheman/fcryptcpp
 
 ## usage
 
-- compile c++
+- **modify main function to use this tool**
 
 ```
-g++ fcrypt.cpp -o fcrypt
+// your key must be 16 bytes for AES-128
+std::string key = "mysecretkey12345"; // your secret key
+
+std::string inputFile = "input.txt";
+std::string encryptedFile = "encrypted.bin";
+
+std::string decryptedFile = "decrypted.txt";
+```
+
+- compile c++
+    - include the OpenSSL library:
+
+```
+g++ fcrypt.cpp -o fcrypt -lssl -lcrypto
+```
+
+- run:
+
+```
+./fcrypt
 ```
 
 ## contributing
