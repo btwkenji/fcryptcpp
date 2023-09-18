@@ -10,7 +10,7 @@
 
 ## project structure:
 
-```
+```rust
 ├── LICENSE
 ├── fcrypt.cpp
 └── README.md
@@ -18,7 +18,7 @@
 
 ## installation
 
-```
+```shell
 git clone https://github.com/kenjitheman/fcryptcpp
 ```
 
@@ -26,7 +26,7 @@ git clone https://github.com/kenjitheman/fcryptcpp
 
 - **modify main function to use this tool**
 
-```
+```c++
 // your key must be 16 bytes for AES-128
 std::string key = "mysecretkey12345"; // your secret key
 
@@ -39,13 +39,13 @@ std::string decryptedFile = "decrypted.txt";
 - compile c++
     - include the OpenSSL library:
 
-```
+```shell
 g++ fcrypt.cpp -o fcrypt -lssl -lcrypto
 ```
 
 - run:
 
-```
+```shell
 ./fcrypt
 ```
 
