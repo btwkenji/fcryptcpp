@@ -1,4 +1,4 @@
-<h2 align="center">file encryption/decryption c++ tool</h2>
+# File encryption/decryption c++ tool
 
 ###
 
@@ -8,7 +8,7 @@
 
 ###
 
-## project structure:
+## Project structure:
 
 ```rust
 ├── LICENSE
@@ -16,15 +16,15 @@
 └── README.md
 ```
 
-## installation
+## Installation
 
 ```shell
 git clone https://github.com/kenjitheman/fcryptcpp
 ```
 
-## usage
+## Usage
 
-- **modify main function to use this tool**
+- **Modify main function to use this tool**
 
 ```c++
 // your key must be 16 bytes for AES-128
@@ -36,24 +36,24 @@ std::string encryptedFile = "encrypted.bin";
 std::string decryptedFile = "decrypted.txt";
 ```
 
-- compile c++
-    - include the OpenSSL library:
+- Compile c++ and include the OpenSSL library:
 
 ```shell
 g++ fcrypt.cpp -o fcrypt -lssl -lcrypto
 ```
 
-- run:
+- Run:
 
 ```shell
 ./fcrypt
 ```
 
-## contributing
+## Contributing
 
-- pull requests are welcome, for major changes, please open an issue first to
-  discuss what you would like to change
+- Pull requests are welcome, for major changes, please open an issue first to
+  discuss what you would like to change.
 
-## license
+## License
 
 - [MIT](https://choosealicense.com/licenses/mit/)
+
