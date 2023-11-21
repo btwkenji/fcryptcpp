@@ -18,7 +18,7 @@
 
 ## Installation
 
-```shell
+```sh
 git clone https://github.com/kenjitheman/fcryptcpp
 ```
 
@@ -38,13 +38,13 @@ std::string decryptedFile = "decrypted.txt";
 
 - Compile c++ and include the OpenSSL library:
 
-```shell
+```sh
 g++ fcrypt.cpp -o fcrypt -lssl -lcrypto
 ```
 
 - Run:
 
-```shell
+```sh
 ./fcrypt
 ```
 
