@@ -11,6 +11,8 @@
 ## Project structure:
 
 ```rust
+fcryptcpp
+│
 ├── LICENSE
 ├── fcrypt.cpp
 └── README.md
