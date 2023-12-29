@@ -57,5 +57,4 @@ g++ fcrypt.cpp -o fcrypt -lssl -lcrypto
 
 ## License
 
-- [MIT](https://choosealicense.com/licenses/mit/)
-
+- [MIT](./LICENSE)
